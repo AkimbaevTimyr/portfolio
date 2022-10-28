@@ -1,10 +1,39 @@
+html 
+  scroll-behavior: smooth
+
 body
     background-color: #282C33
 .container
     max-width: 1024px
     margin: auto
 
-.header
+a
+    text-decoration: none
+    cursor: pointer
+    color: #ABB2BF
+    &:hover
+        color: #ffffff
+
+.section_header
+    display: flex
+    align-items: center
+    color: #FFFFFF
+    font-family: 'Fira Code'
+    font-style: normal
+    font-weight: 500
+    font-size: 32px
+    line-height: 42px
+    p
+        color: #C778DD
+    &:after
+        content: ""
+        width: 511px
+        height: 1px
+        background: #C778DD
+        margin-left: 16px
+
+
+header
     margin-bottom: 150px
     .menu
         display: flex
@@ -83,36 +112,11 @@ body
 
 
 .projects
-    
+    margin-bottom: 120px
     &_header
         display: flex
         justify-content: space-between
         align-items: center
-        &_text
-            display: flex
-            align-items: center
-            color: #FFFFFF
-            font-family: 'Fira Code'
-            font-style: normal
-            font-weight: 500
-            font-size: 32px
-            line-height: 42px
-            p
-                color: #C778DD
-            &:after
-                content: ""
-                width: 511px
-                height: 1px
-                background: #C778DD
-                margin-left: 16px
-        &_button
-            font-family: 'Fira Code'
-            font-style: normal
-            font-weight: 500
-            font-size: 16px
-            line-height: 21px
-            color: #ffffff
-            cursor: pointer
     &_items
         display: flex
         justify-content: space-between
@@ -169,8 +173,111 @@ body
                     a 
                         color: #ffffff
 
+.skills_header  
+    display: flex
+    align-items: center
+    font-family: 'Fira Code'
+    font-style: normal
+    font-weight: 500
+    font-size: 32px
+    line-height: 42px
+    color: #FFFFFF
+    &:after
+        content: ""
+        width: 511px
+        height: 1px
+        background: #C778DD
+        margin-left: 16px
+    p
+        color: #C778DD
 
+.skills
+    display: flex
+    justify-content: space-between
+    margin-bottom: 100px
+    &_left
+        margin-left: 30px
+        margin-right: 30px
+    &_right 
+        &_items
+            display: flex
+            max-width: 600px
+            flex-wrap: wrap
+        &_item
+            border: 1px solid #ABB2BF
+            margin: 30px 30px 0px 0px
+            &_header
+                font-family: 'Fira Code'
+                font-style: normal
+                font-weight: 600
+                font-size: 16px
+                line-height: 21px
+                color: #FFFFFF
+                border-bottom: 1px solid #ABB2BF
+                padding: 3px
+            &_body
+                font-family: 'Fira Code'
+                font-style: normal
+                font-weight: 400
+                font-size: 16px
+                line-height: 21px
+                color: #ABB2BF
+                padding: 8px
+            &:nth-last-child(2)
+                margin-left: 290px
 
+.about_me
+    margin-bottom: 120px
+    &_inner
+        &_body 
+            display: flex
+            justify-content: space-between
+            &_left
+                &_header, &_desc
+                    margin-bottom: 28px
+                    font-family: 'Fira Code'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 21px
+                    color: #ABB2BF
 
+.contacts
+    margin-bottom: 100px
+    &_body
+        display: flex
+        justify-content: space-between
+        margin-top: 46px
+        &_left
+            font-family: 'Fira Code'
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 21px
+            color: #ABB2BF
+        &_right
+            &_header
+                font-family: 'Fira Code'
+                font-style: normal
+                font-weight: 600
+                font-size: 16px
+                line-height: 21px
+                color: #FFFFFF
+            border: 1px solid #ABB2BF
+            padding: 16px
+            div
+                display: flex
+                justify-content: center
+                table
+                    tr
+                        th
+                            font-family: 'Fira Code'
+                            font-style: normal
+                            font-weight: 500
+                            font-size: 16px
+                            line-height: 21px
+                            color: #ABB2BF
 
-                
+                   
+                            
+

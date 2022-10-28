@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="container">
             <nav class="menu">
                 <div class="logo">
@@ -19,10 +19,10 @@
                     Portfolio
                 </div>
                 <ul class="menu_items">
-                    <li class="menu_item"><p>#</p>home</li>
-                    <li class="menu_item"><p>#</p>works</li>
-                    <li class="menu_item"><p>#</p>about-me</li>
-                    <li class="menu_item"><p>#</p>contacts</li>
+                    <li class="menu_item"><p>#</p><a href="#projects">projects</a></li>
+                    <li class="menu_item"><p>#</p><a href="#skills">skills</a></li>
+                    <li class="menu_item"><p>#</p><a href="#about-me">about-me</a></li>
+                    <li class="menu_item"><p>#</p><a href="#contacts">contacts</a></li>
                     <li class="menu_item">
                         <select class="select" id="select">
                             <option value="">EN</option>
@@ -40,70 +40,188 @@
                 <img src="./images/desc_img.png" alt="desc_img" class="desc_img">
             </div>
         </div>
-    </div>
-    <div class="projects">
+    </header>
+    <section id="projects" class="projects">
         <div class="container">
-            <div class="projects_header">
-                <div class="projects_header_text"><p>#</p>projects</div>
-                <div class="projects_header_button">View all ~~></div>
-            </div>
-            <div class="projects_items">
-                <div class="projects_item">
-                    <img src="./images/item_img_1.png" alt="" class="projects_item_img">
-                    <div class="projects_item_language">HTML CSS JS REACT RTK FIREBASE RTL</div>
-                    <div class="projects_item_info">
-                        <div class="projects_item_info_header">Movie Site</div>
-                        <div class="projects_item_info_desc">Movie search site</div>
-                        <div class="projects_item_info_buttons">
-                            <div class="button active">
-                                <a href="https://akimbaevtimyr.github.io/moviesite/">
-                                    Live <~>
-                                </a>
-                            </div>
-                            <div class="button">
-                                <a href="https://github.com/AkimbaevTimyr/moviesite">GitHub -></a>
+            <div class="section_inner">
+                <div class="projects_header">
+                    <div class="section_header"><p>#</p>projects</div>
+                </div>
+                <div class="projects_items">
+                    <div class="projects_item">
+                        <img src="./images/item_img_1.png" alt="" class="projects_item_img">
+                        <div class="projects_item_language">HTML CSS JS REACT RTK FIREBASE RTL</div>
+                        <div class="projects_item_info">
+                            <div class="projects_item_info_header">Movie Site</div>
+                            <div class="projects_item_info_desc">Movie search site</div>
+                            <div class="projects_item_info_buttons">
+                                <div class="button active">
+                                    <a href="https://akimbaevtimyr.github.io/moviesite/">
+                                        Live <~>
+                                    </a>
+                                </div>
+                                <div class="button">
+                                    <a href="https://github.com/AkimbaevTimyr/moviesite">GitHub -></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="projects_item">
-                    <img src="./images/item_img_2.png" alt="" class="projects_item_img">
-                    <div class="projects_item_language">JS REACT MOBX NODE.js EXPRESS <br/>TAILWIND CSS</div>
-                    <div class="projects_item_info">
-                        <div class="projects_item_info_header">Todo App</div>
-                        <div class="projects_item_info_desc">Task management applications</div>
-                        <div class="projects_item_info_buttons">
-                            <div class="button active">
-                                <a href="https://main--papaya-boba-4feeee.netlify.app/">
-                                    Live <~>
-                                </a>
-                            </div>
-                            <div class="button">
-                                <a href="https://github.com/AkimbaevTimyr/todoapp">GitHub -></a>
+                    <div class="projects_item">
+                        <img src="./images/item_img_2.png" alt="" class="projects_item_img">
+                        <div class="projects_item_language">JS REACT MOBX NODE.js EXPRESS <br/>TAILWIND CSS</div>
+                        <div class="projects_item_info">
+                            <div class="projects_item_info_header">Todo App</div>
+                            <div class="projects_item_info_desc">Task management applications</div>
+                            <div class="projects_item_info_buttons">
+                                <div class="button active">
+                                    <a href="https://main--papaya-boba-4feeee.netlify.app/">
+                                        Live <~>
+                                    </a>
+                                </div>
+                                <div class="button">
+                                    <a href="https://github.com/AkimbaevTimyr/todoapp">GitHub -></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="projects_item">
-                    <img src="./images/item_img_1.png" alt="" class="projects_item_img">
-                    <div class="projects_item_language">JS REACT MOBX FIREBASE<br/> TAILWIND CSS</div>
-                    <div class="projects_item_info">
-                        <div class="projects_item_info_header">Movie Site</div>
-                        <div class="projects_item_info_desc">Movie search site</div>
-                        <div class="projects_item_info_buttons">
-                            <div class="button active">
-                                <a href="https://beautiful-frangipane-6b6709.netlify.app/">
-                                    Live <~>
-                                </a>
-                            </div>
-                            <div class="button">
-                                <a href="https://github.com/AkimbaevTimyr/OnlineFoodStore">GitHub -></a>
+                    <div class="projects_item">
+                        <img src="./images/item_img_3.png" alt="" class="projects_item_img">
+                        <div class="projects_item_language">JS REACT MOBX FIREBASE<br/> TAILWIND CSS</div>
+                        <div class="projects_item_info">
+                            <div class="projects_item_info_header">Food Store</div>
+                            <div class="projects_item_info_desc">App for selecting and<br/> ordering pizzas</div>
+                            <div class="projects_item_info_buttons">
+                                <div class="button">
+                                    <a href="https://github.com/AkimbaevTimyr/OnlineFoodStore">GitHub -></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="skills_inner">
+                <div id="skills" class="section_header">
+                <p>#</p>skills
+                </div>
+                <div class="skills">
+                    <div class="skills_left">
+                        <img src="./images/skills_img.png"/>
+                    </div>
+                    <div class="skills_right">
+                        <div class="skills_right_items">
+                            <div class="skills_right_item">
+                                <div class="skills_right_item_header">Languages</div>
+                                <div class="skills_right_item_body">TypeScript JavaScript</div>
+                            </div>
+                            <div class="skills_right_item">
+                                <div class="skills_right_item_header">Databases</div>
+                                <div class="skills_right_item_body">PostgreSQL</div>
+                            </div>
+                            <div class="skills_right_item">
+                                <div class="skills_right_item_header">Tools</div>
+                                <div class="skills_right_item_body">VSCode Linux Git</div>
+                            </div>
+                            <div class="skills_right_item">
+                                <div class="skills_right_item_header">Other</div>
+                                <div class="skills_right_item_body">HTML CSS SASS</div>
+                            </div>
+                            <div class="skills_right_item">
+                                <div class="skills_right_item_header">Frameworks</div>
+                                <div class="skills_right_item_body">React</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-me" class="about_me">
+        <div class="container">
+            <div class="about_me_inner">
+                <div class="section_header">
+                    <p>#</p>about-me
+                </div>
+                <div class="about_me_inner_body">
+                    <div class="about_me_inner_body_left">
+                        <div class="about_me_inner_body_left_header">
+                            Hello, i’m Timyr!
+                        </div>
+                        <div class="about_me_inner_body_left_desc">
+                            I’m a self-taught front-end developer based in Semey,<br/> Kazakhstan. I can develop responsive websites and<br/> raise them into modern user-friendly web experiences. 
+                        </div>
+                        <div class="about_me_inner_body_left_desc">
+                            Transforming my  knowledge into a websites has been my<br/> passion for almost a year. I always strive to learn<br/> about the newest technologies and frameworks.
+                        </div>
+                    </div>
+                    <div class="about_me_inner_body_right">
+                        <img src="./images/about_me_png.png" alt="about me png"/>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="contacts_inner">
+                <div class="section_header">
+                    <p>#</p>contacts
+                </div>
+                <div class="contacts_body">
+                    <div class="contacts_body_left">
+                        How you can contact me
+                    </div>
+                    <div class="contacts_body_right">
+                        <div class="contacts_body_right_header">
+                            Message me here
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <th>
+                                        <a href="https://t.me/dominiccobb21">
+                                            <img src="./images/Telegram.svg" alt="telegram" />
+                                        </a>
+                                    </th>
+                                    <th>
+                                        <a href="https://t.me/dominiccobb21">
+                                            Telegram
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="https://www.linkedin.com/in/timyrakimbaev/">
+                                            <img src="./images/Linkedin.svg" alt="linkedin" />
+                                        </a>
+                                    </th>
+                                    <th>
+                                        <a href="https://www.linkedin.com/in/timyrakimbaev/">
+                                            Linkedin
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a href="https://github.com/AkimbaevTimyr">
+                                            <img src="./images/Github.svg" alt="github" />
+                                        </a>
+                                    </th>
+                                    <th>
+                                        <a href="https://github.com/AkimbaevTimyr">
+                                            Github
+                                        </a>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
