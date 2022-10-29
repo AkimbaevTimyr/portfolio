@@ -329,7 +329,7 @@ header
         &_items
             flex-wrap: wrap
         &_item
-            margin-left: 50px
+            margin-left: 30px
             width: 500px
             margin-bottom: 20px
             &_info
@@ -340,7 +340,7 @@ header
     .section_header
         &:after
             content: ""
-            width: 250px
+            width: 200px
             height: 1px
             background: #C778DD
             margin-left: 16px
@@ -396,12 +396,14 @@ header
             width: 350px
             justify-content: center
             align-items: center
+           
         &_item
             width: 300px
             margin-bottom: 20px
             &_info
                 &_buttons
                     &_button
+           
     .skills
         display: block
         &_left
@@ -410,9 +412,12 @@ header
         &_right 
             padding: 25px
             &_items
+                justify-content: center
             &_item
                 width: 250px
                 margin: 30px 10px 0px 0px
+                &:nth-last-child(2)
+                    margin-left: 0px
     .about_me
         width: 100%
         &_inner
