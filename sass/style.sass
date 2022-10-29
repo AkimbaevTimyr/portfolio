@@ -261,14 +261,13 @@ header
             margin-bottom: 20px
 
     .skills
-        width: 970px
+        container
+            max-width: 970px
         &_left
-            margin-left: 30px
-            margin-right: 30px
+            margin-right: 120px
         &_right 
             &_items
                 display: flex
-                max-width: 500px
                 flex-wrap: wrap
             &_item
                 margin: 30px 30px 0px 0px
@@ -292,7 +291,10 @@ header
             width: 325px
             margin-bottom: 20px
     .skills
-        width: 750px
+        container
+            width: 750px
+        &_left
+            width: 250px
         &_right 
             &_items
                 display: flex
@@ -318,17 +320,18 @@ header
     .container
         max-width: none
     .projects
-        &_items
+        container
             width: 500px
+        &_items
             flex-wrap: wrap
         &_item
-            width: 240px
             margin-bottom: 20px
             &_info
                 &_buttons
                     &_button
-                        a
-                            font-size: 14px
+    a
+        font-size: 14px
+    .section_header
+        fonnt
                         
-
 

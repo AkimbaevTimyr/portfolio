@@ -308,16 +308,14 @@ header .desc_img {
     width: 300px;
     margin-bottom: 20px;
   }
-  .skills {
-    width: 970px;
+  .skills container {
+    max-width: 970px;
   }
   .skills_left {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 120px;
   }
   .skills_right_items {
     display: flex;
-    max-width: 500px;
     flex-wrap: wrap;
   }
   .skills_right_item {
@@ -340,8 +338,11 @@ header .desc_img {
     width: 325px;
     margin-bottom: 20px;
   }
-  .skills {
+  .skills container {
     width: 750px;
+  }
+  .skills_left {
+    width: 250px;
   }
   .skills_right_items {
     display: flex;
@@ -369,15 +370,16 @@ header .desc_img {
   .container {
     max-width: none;
   }
-  .projects_items {
+  .projects container {
     width: 500px;
+  }
+  .projects_items {
     flex-wrap: wrap;
   }
   .projects_item {
-    width: 240px;
     margin-bottom: 20px;
   }
-  .projects_item_info_buttons_button a {
+  a {
     font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
