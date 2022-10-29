@@ -314,17 +314,23 @@ header
                         font-size: 16px
                         line-height: 21px
                         color: #ABB2BF
+    .section_header
+        &:after
+            content: ""
+            width: 350px
+            height: 1px
+            background: #C778DD
+            margin-left: 16px
      
 
 @media screen and(max-width: 767px)
     .container
         max-width: none
     .projects
-        container
-            width: 500px
         &_items
             flex-wrap: wrap
         &_item
+            height: auto
             margin-bottom: 20px
             &_info
                 &_buttons
@@ -332,6 +338,66 @@ header
     a
         font-size: 14px
     .section_header
-        fonnt
-                        
+        &:after
+            content: ""
+            width: 250px
+            height: 1px
+            background: #C778DD
+            margin-left: 16px
+    header
+        .desc
+            align-items: center
+            &_img
+                width: 250px
+                height: 100%
 
+
+@media screen and(max-width: 530px)
+    header
+        width: 350px
+        .desc
+            justify-content: space-between
+            align-items: center
+            &_img
+                width: 150px
+                height: 150px
+            &_left
+                &_header
+                    font-size: 20px
+                &_text
+                    font-size: 14px
+    .projects
+        &_items
+            width: 350px
+            justify-content: center
+            align-items: center
+        &_item
+            width: 300px
+            margin-bottom: 20px
+            &_info
+                &_buttons
+                    &_button
+    .skills
+        display: block
+        &_left
+            width: 100%
+        &_right 
+            &_items
+            &_item
+                width: 250px
+                margin: 30px 10px 0px 0px
+    .about_me
+        width: 100%
+        &_inner
+            &_body 
+                display: block
+                &_left
+                    width: 350px
+                    &_header, &_desc
+                        margin-bottom: 28px
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 21px
+                        color: #ABB2BF
+    .section_header
+        font-size: 20px

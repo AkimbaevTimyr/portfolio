@@ -365,21 +365,97 @@ header .desc_img {
     line-height: 21px;
     color: #ABB2BF;
   }
+  .section_header:after {
+    content: "";
+    width: 350px;
+    height: 1px;
+    background: #C778DD;
+    margin-left: 16px;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
     max-width: none;
   }
-  .projects container {
-    width: 500px;
-  }
   .projects_items {
     flex-wrap: wrap;
   }
   .projects_item {
+    height: auto;
     margin-bottom: 20px;
   }
   a {
     font-size: 14px;
+  }
+  .section_header:after {
+    content: "";
+    width: 250px;
+    height: 1px;
+    background: #C778DD;
+    margin-left: 16px;
+  }
+  header .desc {
+    align-items: center;
+  }
+  header .desc_img {
+    width: 250px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 530px) {
+  header {
+    width: 350px;
+  }
+  header .desc {
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .desc_img {
+    width: 150px;
+    height: 150px;
+  }
+  header .desc_left_header {
+    font-size: 20px;
+  }
+  header .desc_left_text {
+    font-size: 14px;
+  }
+  .projects_items {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects_item {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .skills {
+    display: block;
+  }
+  .skills_left {
+    width: 100%;
+  }
+  .skills_right_item {
+    width: 250px;
+    margin: 30px 10px 0px 0px;
+  }
+  .about_me {
+    width: 100%;
+  }
+  .about_me_inner_body {
+    display: block;
+  }
+  .about_me_inner_body_left {
+    width: 350px;
+  }
+  .about_me_inner_body_left_header, .about_me_inner_body_left_desc {
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+  }
+  .section_header {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
