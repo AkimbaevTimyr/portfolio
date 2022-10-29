@@ -169,12 +169,11 @@ header .desc_img {
 }
 .projects_item_info_buttons {
   display: flex;
-  justify-content: space-between;
 }
 .projects_item_info_buttons .button {
   border: 1px solid #ABB2BF;
-  width: 120px;
   padding: 8px;
+  margin-right: 5px;
   text-align: center;
 }
 .projects_item_info_buttons .button a {
@@ -326,6 +325,10 @@ header .desc_img {
   }
 }
 @media screen and (max-width: 992px) {
+  header .desc_img {
+    width: 330px;
+    height: 330px;
+  }
   .container {
     max-width: 750px;
   }
@@ -337,17 +340,44 @@ header .desc_img {
     width: 325px;
     margin-bottom: 20px;
   }
+  .skills {
+    width: 750px;
+  }
+  .skills_right_items {
+    display: flex;
+    max-width: 750px;
+  }
+  .skills_right_item {
+    margin: 30px 10px 0px 0px;
+  }
+  .about_me_inner_body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_me_inner_body_left {
+    width: 350px;
+  }
+  .about_me_inner_body_left_header, .about_me_inner_body_left_desc {
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+  }
 }
 @media screen and (max-width: 767px) {
   .container {
     max-width: none;
   }
   .projects_items {
-    width: 750px;
+    width: 500px;
     flex-wrap: wrap;
   }
   .projects_item {
-    width: 325px;
+    width: 240px;
     margin-bottom: 20px;
+  }
+  .projects_item_info_buttons_button a {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

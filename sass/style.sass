@@ -140,11 +140,10 @@ header
                 color: #ABB2BF
             &_buttons
                 display: flex
-                justify-content: space-between
                 .button
                     border: 1px solid #ABB2BF
-                    width: 120px
                     padding: 8px
+                    margin-right: 5px
                     text-align: center
                     a
                         color: #ABB2BF
@@ -278,6 +277,11 @@ header
     
 
 @media screen and(max-width: 992px)
+    header
+        .desc
+            &_img
+                width: 330px
+                height: 330px
     .container
         max-width: 750px
     .projects
@@ -287,18 +291,44 @@ header
         &_item
             width: 325px
             margin-bottom: 20px
+    .skills
+        width: 750px
+        &_right 
+            &_items
+                display: flex
+                max-width: 750px
+            &_item
+                margin: 30px 10px 0px 0px
+    .about_me
+        &_inner
+            &_body 
+                display: flex
+                justify-content: space-between
+                &_left
+                    width: 350px
+                    &_header, &_desc
+                        margin-bottom: 28px
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 21px
+                        color: #ABB2BF
+     
 
 @media screen and(max-width: 767px)
     .container
         max-width: none
     .projects
         &_items
-            width: 750px
+            width: 500px
             flex-wrap: wrap
         &_item
-            width: 325px
+            width: 240px
             margin-bottom: 20px
-
+            &_info
+                &_buttons
+                    &_button
+                        a
+                            font-size: 14px
                         
 
 
