@@ -323,12 +323,12 @@ header .desc_img {
   }
 }
 @media screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
   header .desc_img {
     width: 330px;
     height: 330px;
-  }
-  .container {
-    max-width: 750px;
   }
   .projects_items {
     width: 750px;
@@ -338,15 +338,15 @@ header .desc_img {
     width: 325px;
     margin-bottom: 20px;
   }
-  .skills container {
-    width: 750px;
-  }
   .skills_left {
-    width: 250px;
+    width: 200px;
+    height: 200px;
+  }
+  .skills_right {
+    max-width: 700px;
   }
   .skills_right_items {
     display: flex;
-    max-width: 750px;
   }
   .skills_right_item {
     margin: 30px 10px 0px 0px;
@@ -381,7 +381,8 @@ header .desc_img {
     flex-wrap: wrap;
   }
   .projects_item {
-    height: auto;
+    margin-left: 50px;
+    width: 500px;
     margin-bottom: 20px;
   }
   a {
@@ -397,9 +398,42 @@ header .desc_img {
   header .desc {
     align-items: center;
   }
+  header .desc_left {
+    width: 300px;
+  }
   header .desc_img {
     width: 250px;
     height: 100%;
+  }
+  .contacts_body_right {
+    margin-right: 20px;
+  }
+  .skills {
+    display: block;
+  }
+  .skills_left {
+    adding: 30px;
+    width: 70%;
+    height: 70%;
+  }
+  .skills_right {
+    padding: 30px;
+    max-width: 500px;
+  }
+  .skills_right_items {
+    display: flex;
+  }
+  .skills_right_item {
+    margin: 30px 10px 0px 0px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .logo {
+    display: none;
+  }
+  .menu_items {
+    align-items: flex-start;
+    padding: 0px;
   }
 }
 @media screen and (max-width: 530px) {
@@ -433,7 +467,11 @@ header .desc_img {
     display: block;
   }
   .skills_left {
-    width: 100%;
+    padding: 25px;
+    width: 250px;
+  }
+  .skills_right {
+    padding: 25px;
   }
   .skills_right_item {
     width: 250px;
@@ -449,6 +487,8 @@ header .desc_img {
     width: 350px;
   }
   .about_me_inner_body_left_header, .about_me_inner_body_left_desc {
+    display: block;
+    text-align: justify;
     margin-bottom: 28px;
     font-weight: 400;
     font-size: 16px;
@@ -457,5 +497,30 @@ header .desc_img {
   }
   .section_header {
     font-size: 20px;
+  }
+  .contacts {
+    margin-bottom: 100px;
+  }
+  .contacts_body {
+    display: block;
+    margin-top: 46px;
+  }
+  .contacts_body_left {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+    margin-bottom: 15px;
+  }
+  .contacts_body_right {
+    border: 1px solid #ABB2BF;
+    width: 300px;
+    padding: 16px;
+  }
+  .contacts_body_right_header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
   }
 }/*# sourceMappingURL=style.css.map */

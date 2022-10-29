@@ -276,13 +276,13 @@ header
     
 
 @media screen and(max-width: 992px)
+    .container
+        max-width: 750px
     header
         .desc
             &_img
                 width: 330px
                 height: 330px
-    .container
-        max-width: 750px
     .projects
         &_items
             width: 750px
@@ -291,14 +291,13 @@ header
             width: 325px
             margin-bottom: 20px
     .skills
-        container
-            width: 750px
         &_left
-            width: 250px
+            width: 200px
+            height: 200px
         &_right 
+            max-width: 700px
             &_items
                 display: flex
-                max-width: 750px
             &_item
                 margin: 30px 10px 0px 0px
     .about_me
@@ -330,7 +329,8 @@ header
         &_items
             flex-wrap: wrap
         &_item
-            height: auto
+            margin-left: 50px
+            width: 500px
             margin-bottom: 20px
             &_info
                 &_buttons
@@ -347,10 +347,35 @@ header
     header
         .desc
             align-items: center
+            &_left
+                width: 300px
             &_img
                 width: 250px
                 height: 100%
+    .contacts
+        &_body
+            &_right
+                margin-right: 20px
+    .skills
+        display: block
+        &_left
+            adding: 30px
+            width: 70%
+            height: 70%
+        &_right 
+            padding: 30px
+            max-width: 500px
+            &_items
+                display: flex
+            &_item
+                margin: 30px 10px 0px 0px
 
+@media screen and(max-width: 590px)
+    .logo
+        display: none
+    .menu_items
+        align-items: flex-start
+        padding: 0px
 
 @media screen and(max-width: 530px)
     header
@@ -380,8 +405,10 @@ header
     .skills
         display: block
         &_left
-            width: 100%
+            padding: 25px
+            width: 250px
         &_right 
+            padding: 25px
             &_items
             &_item
                 width: 250px
@@ -394,6 +421,8 @@ header
                 &_left
                     width: 350px
                     &_header, &_desc
+                        display: block
+                        text-align: justify
                         margin-bottom: 28px
                         font-weight: 400
                         font-size: 16px
@@ -401,3 +430,26 @@ header
                         color: #ABB2BF
     .section_header
         font-size: 20px
+    .contacts
+        margin-bottom: 100px
+        &_body
+            display: block
+            margin-top: 46px
+            &_left
+                font-weight: 500
+                font-size: 16px
+                line-height: 21px
+                color: #ABB2BF
+                margin-bottom: 15px
+            &_right
+                &_header
+                    font-weight: 600
+                    font-size: 16px
+                    line-height: 21px
+                    color: #FFFFFF
+                border: 1px solid #ABB2BF
+                width: 300px
+                padding: 16px
+                
+                
+                    
