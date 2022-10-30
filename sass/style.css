@@ -438,7 +438,7 @@ header .desc_img {
 }
 @media screen and (max-width: 530px) {
   header {
-    padding: 30px;
+    margin: 0;
     width: 350px;
   }
   header .desc {
@@ -472,8 +472,11 @@ header .desc_img {
     display: block;
   }
   .skills_left {
-    padding: 25px;
-    width: 250px;
+    max-width: 200px;
+  }
+  .skills_right {
+    max-width: 300px;
+    margin: 0px;
   }
   .skills_right_items {
     justify-content: center;
@@ -487,7 +490,6 @@ header .desc_img {
   }
   .about_me {
     width: 100%;
-    padding: 30px;
   }
   .about_me_inner_body {
     display: block;
@@ -512,7 +514,7 @@ header .desc_img {
   }
   .contacts_body {
     display: block;
-    margin-top: 46px;
+    margin: 46px 0px 0px 30px;
   }
   .contacts_body_left {
     font-weight: 500;

@@ -376,7 +376,7 @@ header
 
 @media screen and(max-width: 530px)
     header
-        padding: 30px
+        margin: 0
         width: 350px
         .desc
             display: flex
@@ -404,9 +404,10 @@ header
     .skills
         display: block
         &_left
-            padding: 25px
-            width: 250px
+            max-width: 200px
         &_right 
+            max-width: 300px
+            margin: 0px
             &_items
                 justify-content: center
             &_item
@@ -416,7 +417,6 @@ header
                     margin-left: 0px
     .about_me
         width: 100%
-        padding: 30px
         &_inner
             &_body 
                 display: block
@@ -436,7 +436,7 @@ header
         margin-bottom: 100px
         &_body
             display: block
-            margin-top: 46px
+            margin: 46px 0px 0px 30px
             &_left
                 font-weight: 500
                 font-size: 16px
