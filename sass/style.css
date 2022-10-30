@@ -63,7 +63,7 @@ header .menu_items {
 header .menu_items .menu_item {
   display: flex;
   align-items: center;
-  margin-right: 32px;
+  margin-right: 14px;
   color: #ABB2BF;
   font-weight: 400;
   font-size: 16px;
