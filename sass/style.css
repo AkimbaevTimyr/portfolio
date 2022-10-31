@@ -117,8 +117,24 @@ header .desc_left_button {
   line-height: 21px;
   cursor: pointer;
 }
-header .desc_img {
-  position: relative;
+header .desc_right_text {
+  border: 1px solid #ABB2BF;
+  padding: 5px;
+  color: #ABB2BF;
+  text-align: center;
+}
+header .desc_right_text a {
+  color: #ffffff;
+}
+header .desc_right_text a:hover {
+  color: #C778DD;
+}
+header .desc_right_text:before {
+  content: ".";
+  width: 16px;
+  height: 16px;
+  background: #C778DD;
+  border: 1px solid #C778DD;
 }
 
 .projects {
